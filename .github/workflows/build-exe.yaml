@@ -26,6 +26,6 @@ jobs:
 
     - name: Run Python script
       run: |
-        pyside6-deploy.exe -c pysidedeploy.spec -force
+        pyside6-deploy.exe -c pysidedeploy.spec -f
         dir 
         
