@@ -3,7 +3,7 @@ name: Windows Python 3.11 Run
 on:
   push:
     branches: 
-      - main
+      - master
     tags:
       - "v*.*.*"
 
