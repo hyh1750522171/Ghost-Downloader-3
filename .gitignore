@@ -76,7 +76,7 @@ venv.bak/
 deployment/
 .vscode/
 *.pptx
-
+main.exe
 test.py
 
 layout.ini
