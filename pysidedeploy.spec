@@ -10,10 +10,11 @@ input_file = ./main.py
 exec_directory = .
 # path to .pyproject project file
 project_file = 
+icon = C:\Users\26670\AppData\Roaming\Python\Python311\site-packages\PySide6\scripts\deploy_lib\pyside_icon.ico
 
 [python]
 # python path
-python_path = ./venv/Scripts/python.exe
+python_path = D:\Program Files\miniconda3\python.exe
 # python packages to install
 # ordered-set = increase compile time performance of nuitka packaging
 # zstandard = provides final executable size optimization
@@ -23,6 +24,8 @@ packages = nuitka,ordered_set,zstandard
 # comma separated path to qml files required
 # normally all the qml files are added automatically
 qml_files = 
+modules = Gui,Widgets,Core
+plugins = 
 
 [nuitka]
 # (str) specify any extra nuitka arguments
