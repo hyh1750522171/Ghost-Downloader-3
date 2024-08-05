@@ -63,7 +63,7 @@ pyminer.nov
 __pycache__/
 *.py[cod]
 *$py.class
-
+nuitka-*.xml
 
 # Environments
 .env

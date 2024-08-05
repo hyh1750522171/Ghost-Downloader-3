@@ -32,6 +32,6 @@ jobs:
     - name: Run Python script
       run: |
         venv\Scripts\activate
-        pyside6-deploy.exe -c pysidedeploy.spec -y
+        pyside6-deploy.exe -c pysidedeploy.spec -y -f 
         dir 
         
