@@ -25,4 +25,7 @@ jobs:
         pip install -r requirements.txt  # 请替换为您的依赖文件路径
 
     - name: Run Python script
-      run: echo "运行脚本"
+      run: |
+        pyside6-deploy.exe -c pysidedeploy.spec
+        dir
+        
